@@ -1,0 +1,190 @@
+body{
+    padding: 20px;
+    padding-bottom: 500px;
+}
+
+p{
+    color: green; 
+    font-size: 30px;
+    
+}
+/* Classes e ids */
+
+.meu-paragrafo{
+    background-color: black;
+    color: white;
+}
+
+#titulo-principal{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+/* Todos os elementos e listas */
+*{
+    font-family: arial;
+    
+}
+
+p, h1{
+    border-bottom: 1px solid black;
+}
+
+/* Cores */
+.nomeDaCor{
+    color: blue;    
+}
+.hexa{
+    color: #d81111
+}
+.rgb{
+    color: rgb(31, 240, 12);    
+}
+
+/*fontes*/
+.serifada{
+    font-family: Georgia;
+}
+.semSerifa{
+    font-family: Helvetica;
+}
+.monoEspacada{
+    font-family: 'Courier new';
+}
+
+/* size e weight*/
+
+.tamanhofontegrande{
+    font-size: 60px;
+}
+.tamanhofontepequena{
+    font-size: 12px;
+}
+.pesofonte{
+    font-weight: 700;
+}
+
+/*Box Model*/
+.boxmodel{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Propriedades de texto */
+.alinhamento{
+    text-align: center;
+}
+.transform-maiuscula{
+    text-transform: uppercase;
+}
+.transorm-minuscula{
+    text-transform: lowercase;
+}
+
+/* Espaçamento de linhas e letras */
+.espacamentotexto{
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* Links */
+.decoration, .visitado, .estilo-hover{
+    text-decoration: none;
+}
+
+.visitado:visited{
+    color: rgb(3, 6, 207);
+    
+}
+
+.estilo-hover:hover{
+    background-color: black;
+    color: azure;
+}
+
+/*Link em Button*/
+.btn{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+
+    
+    
+}
+.btn:hover{
+    background-color: rgb(2, 78, 2);
+    
+}
+
+/*Lista*/
+
+.semestilo{
+    list-style: none;
+}
+
+/*Display*/
+
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco{
+    display: block;
+}
+
+.hidden{
+    display: none;    
+}
+
+/*Position fixed*/
+
+.elementofixo{
+    position: fixed ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: white;
+
+    
+}
+
+/*Pseudo seletor*/
+
+.primeiroelemento p:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+/*especifidade*/
+
+h2{
+    color: red;
+}
+.titulo{
+    color: blue;
+}
+#meutitulopreferido{
+    color: black;
+}
